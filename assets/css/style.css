@@ -81,14 +81,13 @@ a {
   .navbar {
     --bs-navbar-padding-y: 0;
   }
-  .navbar-fixed-top{
+  .top_header{
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
     background: linear-gradient(to bottom right , rgb(18, 18, 18) 30%, rgb(52, 46, 46) 50%, black, black);
-    z-index: 2;
-    opacity: .6;
+    z-index: 1;
   }
   .logo{
     justify-content: space-between;
@@ -111,6 +110,11 @@ a {
     display: block; 
     padding: 20px 0;
   }
+  .navbar-toggler{
+    color: #fff;
+    background-color: white;
+  }
+
   .nav-item:hover{
     border-top: 2px solid var(--primary);
   }
