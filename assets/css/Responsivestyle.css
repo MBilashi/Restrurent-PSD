@@ -1,0 +1,231 @@
+@media (min-width:1400px) {}
+@media (min-width:1200px) and (max-width:1399.99px){}
+@media (min-width:992px) and (max-width:1199.99px){
+  .about_main p {
+    width:95%;
+    text-align: justify;
+  }
+  .about_main_dish{
+    width:95%;
+  }
+  .about_main_dish img{
+    width:100%;
+  }
+  .review_main{
+    background: var(--forth);
+    padding:10px 0;
+    width: 100%;
+    margin: auto;
+  }
+  .food_book_main_02 p{
+    text-align: justify;
+  }
+  .fine_ingredients_part p {
+    text-align: justify;
+    width: 95%;
+  }
+  .footer_main_box{
+    margin-bottom: 50px;
+  }
+  .navbar-fixed-top{
+    width: 100%;
+  }
+}
+@media (min-width:768px) and (max-width:991.99px){
+    .nav-item .nav-link{
+        padding:5px 10px ;
+      }
+    .nav-item .nav-link:hover{
+        color:white;
+        background: #2cacf8;
+      }
+      .hero_part{
+        width: 100%;
+        padding-bottom: 60px;
+      }
+      .hero_part_main h1{
+        font-size: 30px !important;
+        padding-top: 20px;
+      }
+      .hero_part_main p{
+        font-size: 14px;
+      }
+      .about_main p {
+        width:95%;
+        text-align: justify;
+      }
+      .about_main_dish{
+        width:95%
+      }
+      .about_main_dish img{
+        width:100%;
+      }
+      .review_main{
+        background: var(--forth);
+        padding:10px 0;
+        width: 100%;
+        margin: auto;
+      }
+      .food_book_main_02 p{
+        text-align: justify;
+      }
+      .fine_ingredients_part p {
+        text-align: justify;
+        width: 95%;
+      }
+      .footer_main_box{
+        margin-bottom: 50px;
+      }
+      .navbar-fixed-top{
+        width: 100%;
+      }
+}
+@media (min-width:576px) and (max-width:767.99px){
+    .nav-item .nav-link{
+        padding:5px 10px ;
+      }
+    .nav-item .nav-link:hover{
+        color:white;
+        background: #2cacf8;
+      } 
+      .hero_part{
+        width: 100%;
+        padding-bottom: 60px;
+      }
+      .hero_part_main h1{
+        font-size: 30px !important;
+        padding-top: 20px;
+      }
+      .hero_part_main p{
+        font-size: 14px;
+      }
+      .about_main p {
+        width:95%;
+        text-align: justify;
+      }
+      .about_main_dish{
+        width:95%
+      }
+      .about_main_dish img{
+        width:100%;
+      }
+      .review_main{
+        background: var(--forth);
+        padding:10px 0;
+        width: 100%;
+        margin: auto;
+      }
+      .food_book_main_02 p{
+        text-align: justify;
+      }
+      .fine_ingredients_part p {
+        text-align: justify;
+        width: 95%;
+      }
+      .footer_main_box{
+        margin-bottom: 50px;
+      }
+      .navbar-fixed-top{
+        width: 100%;
+      }
+}
+@media (min-width:321px) and (max-width:575.99px){
+    .nav-item .nav-link{
+        padding:5px 10px ;
+      }
+    .nav-item .nav-link:hover{
+        color:white;
+        background: #2cacf8;
+      } 
+      .hero_part{
+        width: 100%;
+        padding-bottom: 60px;
+      }
+      .hero_part_main h1{
+        font-size: 30px !important;
+        padding-top: 20px;
+      }
+      .hero_part_main p{
+        font-size: 14px;
+      }
+      .about_main p {
+        width:95%;
+        text-align: justify;
+      }
+      .about_main_dish{
+        width:95%
+      }
+      .about_main_dish img{
+        width:100%;
+      }
+      .review_main{
+        background: var(--forth);
+        padding:10px 0;
+        width: 100%;
+        margin: auto;
+      }
+      .food_book_main_02 p{
+        text-align: justify;
+      }
+      .fine_ingredients_part p {
+        text-align: justify;
+        width: 95%;
+      }
+      .footer_main_box{
+        margin-bottom: 50px;
+      }
+      .navbar-fixed-top{
+        width: 100%;
+      }
+}
+@media (max-width:320.99px){
+    .nav-item .nav-link{
+        padding:5px 10px ;
+      }
+    .nav-item .nav-link:hover{
+        color:white;
+        background: #2cacf8;
+      }
+      .hero_part{
+        width: 100%;
+        padding-bottom: 00px;
+      }
+      .hero_part_main h1{
+        font-size: 30px !important;
+        padding-top: 20px;
+      }
+      .hero_link{
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+      }
+      .about_main p {
+        width:95%;
+        text-align: justify;
+      }
+      .about_main_dish{
+        width:95%
+      }
+      .about_main_dish img{
+        width:100%;
+      }
+      .review_main{
+        background: var(--forth);
+        padding:10px 0;
+        width: 100%;
+        margin: auto;
+      }
+      .food_book_main_02 p{
+        text-align: justify;
+      }
+      .fine_ingredients_part p {
+        text-align: justify;
+        width: 95%;
+      }
+      .footer_main_box{
+        margin-bottom: 50px;
+      }
+      .navbar-fixed-top{
+        width: 100%;
+      }
+}

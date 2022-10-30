@@ -1,0 +1,318 @@
+/*===================================
+    - Template Name: ActiveBOx | Bootstrap | landing page PSD to HTML
+    - Author: Mst. Monia Bilashi Moni
+    - Version: 
+    - Website: 
+=====================================*/
+
+
+
+
+/* =======================================
+   Start Universal Secletor or common css 
+   ======================================= */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --primary:#f2f3f4;
+    --secondary:#dab33e;
+    --third:#191919;   
+    --forth:#191919c6;   
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Yeseva One', cursive;
+  font-weight: 700;
+}
+.nav-link , footer p{
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+/*=================================================
+     End Universal Secletor 
+  ================================================== */
+
+  /* Top Header Menu Bar section CSS Start */
+  .header{
+    background:url('../image/header_banner.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+  }
+  .navbar {
+    --bs-navbar-padding-y: 0;
+  }
+  .navbar-fixed-top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to bottom right , rgb(18, 18, 18) 30%, rgb(52, 46, 46) 50%, black, black);
+    z-index: 2;
+    opacity: .6;
+  }
+  .logo{
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    width: 10%;
+    height: 80px;
+  }
+  .logo img{
+    width: 100%;
+    height: 85%;
+  }
+  
+  .nav-item {
+    padding: 5px 10px;
+  }
+  .nav-item .nav-link {
+    font-size: 18px;
+    color:var(--primary);
+    display: block; 
+    padding: 20px 0;
+  }
+  .nav-item:hover{
+    border-top: 2px solid var(--primary);
+  }
+  .nav-reservation{
+    align-items: center;
+  }
+  .reserv_icon a i{
+    color: var(--secondary);
+  }
+  
+  /* Top Header Menu Bar section CSS End */
+
+  /* Hero part CSS Start */
+  
+.hero_part{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero_part_main h1{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 65px;
+  border-bottom: 2px solid var(--sixth);
+  margin-bottom: 25px;
+}
+.hero_part_main img{
+  color: #a49f91;
+}
+.hero_link{
+  width: 40%;
+  margin: auto;
+  flex-direction: row;
+  display: flex;
+}
+.hero_part_main .hero_call{
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border: 1px solid var(--primary);
+  background:#f2f3f43c;
+  transition: .4s;
+}
+.hero_part_main .hero_call:hover{
+  background: var(--third);
+  opacity: .7;
+  border: 1px solid var(--third);
+}
+  /* Hero part CSS End */
+
+
+  /* About Part CSS Start  */
+  .about{
+    background: url('../image/about_back.png');
+
+  }
+  .about_heading{
+    margin: auto;
+    text-align: center;
+  }
+  .about_heading h2{
+    color: var(--secondary);
+  }
+  .box p{
+    margin: auto;
+  }
+   .about_main_dish{
+    width:100%;
+    margin: auto;
+    }
+ 
+  /* About Part CSS End  */
+
+  /* fine_ingredients Part CSS Start */
+  .fine_ingredients{
+    background: url('../image/ingridients_banner.png') no-repeat center;
+    background-size: cover;
+  }
+  .fine_ingredients_part{
+    background: var(--forth);
+    padding: 50px 30px;
+  }
+  .fine_ingredients_part p{
+    width: 80%;
+    margin: auto;
+  }
+  /* fine_ingredients Part CSS End */
+
+  /* menu_item CSS Part Start  */
+  .menu_item{
+    background: url('../image/menu-item_background.png') no-repeat center;
+  }
+  .menu_item_main_part h3,
+  .menu_item h6{
+    color: var(--secondary);
+  }
+  .menu_item_main_part{
+    margin: auto;
+    width: 80%;
+  }
+  .menu_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu_list_price{
+    padding-bottom: 25px;
+  }
+  /* menu_item CSS Part End  */
+
+  /* reviews Section CSS Start  */
+  .review{
+    background: url('../image/reviews_banner.png') no-repeat center;
+  }
+  .review_main{
+    background: var(--forth);
+    padding: 60px 30px;
+    width: 70%;
+    margin: auto;
+  }
+  .review_main p{
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+  }
+  .review_part small{
+    color: var(--primary);
+    text-align: right;
+  }
+  /* reviews Section CSS end  */
+ 
+
+  /* food_book CSS Part Start */
+  .food_book{
+    background: url('../image/food_book_banner.png') no-repeat center;
+  }
+  .food_book_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 98%;
+    margin: auto;
+  
+  }
+  .food_book_main .box {
+    margin: auto;
+  }
+  .food_book_main_02{
+    width: 95%;
+    margin: auto;
+  }
+  .food_book_main_02 .box h3{
+    color: var(--secondary);
+  }
+  .form_input{
+    justify-content: space-between;
+  }
+  label h6{
+    color: var(--secondary);
+  }
+  .box a{
+    width: 50%;
+    height: 30px;
+    background: var(--secondary);
+    margin: auto;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    transition: .4s;
+  }
+  .box a:hover{
+    background:var(--third);
+  }
+  /* food_book CSS Part End */
+
+  /* Footer Part CSS Start  */
+  .footer{
+    background: var(--third);
+  }
+  .footer_main_box p{
+    font-size: 14px;
+  }
+  .footer_card a{
+    background-color: #fff;
+    padding: 5px 9px;
+  }
+  .footer_card a i{
+    background: white;
+    font-size: 16px;
+  }
+  .footer_card_social a{
+    background-color: none;
+  }
+  .footer_card_social a i{
+    color: white;
+  }
+  /* Footer Part CSS End */
